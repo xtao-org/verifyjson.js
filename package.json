@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "verifyjson.js",
+  "version": "0.1.0",
+  "main": "mod.js",
+  "private": true,
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtao-org/verifyjson.js.git"
+  },
+  "author": "Darius J Chuck",
+  "license": "MIT"
+}
