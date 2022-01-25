@@ -1,6 +1,6 @@
-# verifyJson.js
+# verifyjson.js
 
-Verifies that the return value of `JSON.parse` conforms to the given type constraint.
+Verifies if the return value of `JSON.parse` conforms to a type constraint.
 
 Supports simple and complex type constraints.
 
