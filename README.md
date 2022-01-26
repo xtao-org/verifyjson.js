@@ -134,7 +134,7 @@ verifyJson(JSON.parse(`{"one": 1, "two": 2, "three": 3, "four": 42}`), ["object"
 
 ### union
 
-`object` matches a value of any of the specified types.
+`union` matches a value of any of the specified types.
 
 ```js
 verifyJson(JSON.parse(`42`), ["union", [["number"], ["string"]]]) === true
