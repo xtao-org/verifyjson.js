@@ -143,6 +143,6 @@ verifyJson(JSON.parse(`"42"`), ["union", [["number"], ["string"]]]) === true
 
 ***
 
-[MIT LICENSE](LICENSE)
+[MIT License](LICENSE)
 
 © 2022 xtao.org
