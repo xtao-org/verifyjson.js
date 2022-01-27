@@ -47,7 +47,7 @@ verifyJson(JSON.parse(`{"one": 1, "two": 2, "three": 3, "four": 42}`), [
 ]) === true
 ```
 
-## Supported costraints
+## Supported constraints
 
 ### any
 
