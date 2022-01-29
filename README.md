@@ -77,7 +77,7 @@ verifyJson(JSON.parse(`42`), ["number"]) === true
 
 ### string
 
-`number` matches any JSON string.
+`string` matches any JSON string.
 
 ```js
 verifyJson(JSON.parse(`"42"`), ["string"]) === true
@@ -86,7 +86,7 @@ verifyJson(JSON.parse(`42`), ["string"]) === false
 
 ### boolean
 
-`number` matches `true` and `false`.
+`boolean` matches `true` and `false`.
 
 ```js
 verifyJson(JSON.parse(`true`), ["boolean"]) === true
@@ -96,7 +96,7 @@ verifyJson(JSON.parse(`42`), ["boolean"]) === false
 
 ### null
 
-`number` matches only `null`.
+`null` matches only `null`.
 
 ```js
 verifyJson(JSON.parse(`null`), ["null"]) === true
@@ -114,7 +114,7 @@ verifyJson(JSON.parse(`[1, 2, 3, "42"]`), ["array", ["number"]]) === false
 
 ### tuple
 
-`array` matches an array which contains a number of values of specified types.
+`tuple` matches an array which contains a number of values of specified types.
 
 ```js
 verifyJson(JSON.parse(`[1, 2, 3, 42]`), ["tuple", [["number"], ["number"], ["number"], ["number"]]]) === true
